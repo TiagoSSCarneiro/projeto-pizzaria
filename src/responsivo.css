@@ -1,0 +1,51 @@
+
+@media (max-width: 768px) {
+    .conteudo-restaurante {
+        display: flex;
+        flex-wrap: wrap;
+        margin:auto;
+    }
+
+    .conteudo-restaurante .img-tomate {
+        transform: translate(150%, -235%);
+        
+        
+    }
+}
+
+@media (max-width: 576px) {
+    .lista-produto-pizza {
+        margin-bottom: 90px;
+    }
+
+    .lista-produto-pizza .pizza {
+        margin: 30px 0px 70px;
+    } 
+
+    .conteudo-restaurante .img-tomate {
+        display: none;
+    }
+}
+
+@media (max-width: 425px) {
+    .cabecalho {
+        font-size: 6vh;
+    }
+    
+    .titulo-pagina {
+        margin: 50px;
+    }
+
+
+    .conteudo-restaurante .img-restaurante {
+        display: none;
+    }
+    .conteudo-restaurante .imagem-aleatoria-2 {
+        display: none;
+    }
+
+
+
+}
+
+

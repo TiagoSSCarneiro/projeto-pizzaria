@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&family=Sora:wght@100;200;300;400;500;600&display=swap');
+
+.letra-i {
+    color: orange;
+}
+
+.letra-z-1 {
+    color: red;
+}
+
+.letra-z-2 {
+    color: green;
+}
+
+.cabecalho {
+
+    background: rgba(46, 46, 46, 0.7) url(/imagem/imagem-pizza-grande.jpg) center center no-repeat;
+    opacity: 95%;
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 7vh;
+    color: white;
+    max-width: 1440px;
+    margin: auto;
+}
+
+
+
+.titulo-pagina {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    font-weight: 600;
+    margin: 141px 0 80px;
+
+}
+
+.lista-produto-pizza {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-bottom: 200px;
+    
+
+}
+.lista-produto-pizza .pizza {
+    margin-left: 38px;
+    margin-bottom: 90px;
+    width: 256px;
+    height: 275px;
+    padding: 30px;
+    transition: 0.3s ease-in-out;
+    background-color: rgba(254, 246, 244, 1);
+    border-radius: 25px;
+}
+
+.lista-produto-pizza .pizza {
+    position: relative;
+    
+}
+
+
+
+.lista-produto-pizza .pizza .icon-curtir {
+    position: absolute;
+    color: black;
+    border: 1.5px solid rgb(252, 35, 35);
+    color:rgb(252, 35, 35);
+    padding-top:2px ;
+    border-radius: 10px;
+    width: 25px;
+    height: 26px;
+    background:rgba(255, 212, 201, 1) ;
+    transform: translate(300%, -160%);
+
+    
+}
+
+.lista-produto-pizza .pizza .icon-curtir:hover{
+    color: rgb(245, 86, 86);
+    border-color: rgb(245, 86, 86);
+}
+    
+
+
+.lista-produto-pizza .pizza .img-pizza {
+    width: 120px;
+    position: absolute;
+    transform: translate(-50%, -70%);
+}
+
+.lista-produto-pizza .pizza .botao-comprar {
+    position: absolute;
+    background: rgba(255, 162, 0, 1);
+    width: 157px;
+    height: 31px;
+    padding: 8px 9px;
+    border-radius: 25px;
+    font-size: 12px;
+    transition: 0.3s;
+    transform: translate(-50%, 60%);
+
+}
+.lista-produto-pizza .pizza .botao-comprar:hover{
+    color:white;
+    font-size: 13px;
+    
+}
+
+.lista-produto-pizza .pizza h2, h3, a {
+    color: rgba(46, 46, 46, 1);
+}
+
+
+
+.lista-produto-pizza .pizza h2 {
+    font-size: 1.5em;
+    margin-top: 60px;
+}
+
+.lista-produto-pizza .pizza p {
+    margin: 8px 0 18px;
+    font-size: 14px;
+    color: rgba(97, 97, 97, 1);
+    
+
+}
+
+.lista-produto-pizza .pizza .preco {
+    font-size: 2em;
+}
+
+
+.conteudo-restaurante {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    flex-wrap: wrap;
+}
+
+.conteudo-restaurante .img-restaurante{
+    display: flex;
+    width:448px;
+    height:500px;
+    filter: brightness(70%);
+    border-radius: 6px;
+     
+}
+.conteudo-sobre {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 458px;
+           
+}
+
+
+.conteudo-sobre h2 {
+    font-size: 2.2em;
+}
+
+.conteudo-restaurante {
+    background-color: rgba(252, 252, 252, 1);
+    padding: 50px; 
+    position: relative;
+    max-width: 1440px;
+    margin: auto;
+    
+}
+.conteudo-restaurante .img-tomate {
+    position: absolute;
+    width: 150px;
+    transform: translate(350%, -215%);
+
+}
+
+.conteudo-restaurante .imagem-aleatoria-2 {
+    position: absolute;
+    z-index: 1;
+    transform: translate(-50%, -450%);
+    width:110px;
+    border: 11px solid white;
+    border-radius: 50%;
+    box-shadow: -8px 2px 15px rgba(0,0,0,0.3);
+    background-color: white;
+    
+}
+
+
+.conteudo-sobre .botao {
+    background-color:rgba(255, 162, 0, 1);
+    text-align: center;
+    padding: 10px 40px;
+    border-radius:25px;
+    width: 155px;
+    height:39px;
+    transition: 0.3s ease-in-out;
+}
+
+.conteudo-sobre .botao:hover {
+    color:white ;
+    transform: scale(1.2);
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    text-align: center;
+    
+}
+.rodape a {
+    transition: 0.3s ease-in-out;
+}
+.rodape a:hover{
+    color: slateblue;
+    transform: scale(1.2);
+}
+
+
