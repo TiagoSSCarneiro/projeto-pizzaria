@@ -215,8 +215,9 @@
 
 .rodape {
     display: flex;
+    align-items: center;
     flex-direction: column;
-    margin: 25px;
+    margin: 50px 0px;
     text-align: center;
     
 }
